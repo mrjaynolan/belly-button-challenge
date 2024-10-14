@@ -44,6 +44,9 @@ To run this project locally, you will need the following:
 
 ## Functionality Overview
 
+<img width="915" alt="Belly_Button_Biodiversity_Dashboard" src="https://github.com/user-attachments/assets/3b900e56-bec6-4824-8c9a-2eadda588bb6">
+
+
 ### Metadata Panel
 The metadata panel displays key demographic information such as ethnicity, gender, age, and location of the selected test subject. The buildMetadata(sample) function retrieves this information and updates the panel dynamically as new samples are selected.
 
@@ -53,6 +56,10 @@ The metadata panel displays key demographic information such as ethnicity, gende
 ### Bar Chart
 The bar chart shows the top 10 bacterial species (OTUs) found in the selected sample. The buildCharts(sample) function retrieves the data and uses Plotly.js to generate the bar chart, displaying the OTU IDs as labels and their corresponding sample values as bar heights.
 
+<img width="462" alt="Top_10_Bacteria_Cultures_Found" src="https://github.com/user-attachments/assets/328e6b68-d47f-4c8f-b096-da7019b32421">
+
 ### Bubble Chart
 The bubble chart visualizes all bacterial species in the selected sample. Each marker’s size represents the OTU’s abundance in the sample, and the color represents the OTU ID. The buildCharts(sample) function also creates this chart using Plotly.js.
+
+<img width="662" alt="Bacteria_Cultures_Per_Sample" src="https://github.com/user-attachments/assets/d555c3cf-99e0-4e34-ba27-eb0d010250f3">
 
