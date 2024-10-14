@@ -42,21 +42,13 @@ To run this project locally, you will need the following:
 - `samples.json`: Contains the dataset (referenced externally).
 - `README.md`: This file, explaining the project's structure and instructions.
 
-## Project Structure
-
-
-├── index.html            # Main HTML file for setting up the dashboard layout
-├── static
-│   └── js
-│       └── app.js        # JavaScript file with D3 and Plotly code for charting and interactivity
-├── samples.json          # External dataset for Belly Button Biodiversity
-└── README.md             # Project documentation
-
-
 ## Functionality Overview
 
 ### Metadata Panel
 The metadata panel displays key demographic information such as ethnicity, gender, age, and location of the selected test subject. The buildMetadata(sample) function retrieves this information and updates the panel dynamically as new samples are selected.
+
+<img width="230" alt="Demographic_Info" src="https://github.com/user-attachments/assets/a8c19eef-e51c-4bce-aff5-7f99cd41ed61">
+
 
 ### Bar Chart
 The bar chart shows the top 10 bacterial species (OTUs) found in the selected sample. The buildCharts(sample) function retrieves the data and uses Plotly.js to generate the bar chart, displaying the OTU IDs as labels and their corresponding sample values as bar heights.
